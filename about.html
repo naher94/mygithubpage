@@ -26,7 +26,7 @@ $(document).ready(function(e) {
 			}
 		});
 		if(flag == totalFlags){
-			$("#"+name).slideDown();	
+			$("#"+name).slideDown();
 		}
 		else if(flag == (totalFlags-1)) {
 			$(".open-project").hide();
@@ -34,35 +34,11 @@ $(document).ready(function(e) {
 		}
     });
 	$(".close-project-btn").click(function(){
-		$(this).parent(".open-project").slideUp();	
+		$(this).parent(".open-project").slideUp();
 	});
 });//End Document Ready
 </script>
-<style>
-div, a, p, h3 {
-	font-family: Arial, Helvetica, sans-serif;
-	margin: 0px;
-	text-align: left;
-}
-h3 { padding:20px 0px; }
-#content { width:960px; margin:0px auto; }
-#top-header { width:inherit; height:135px; position:relative; }
-.logo { width:2000px; background-color:#12abc4; position:absolute; left:-1780px; }
-#logo1 { height:70px; top:10px; }
-#logo2 { height:35px; bottom:10px; }
-#logo1 img, #logo2 img { position:absolute;top:5px; right:10px; }
-.nav { width:140px; background-color:#77013a; color:#fff; padding:10px 0px; text-align:center; position:absolute; bottom:10px; font-size:14px; }
-.nav:hover { background-color:#680032; }
-#about { right:0px; }
-#portfolio { right:150px; }
-
-.content-column-1 { width:710px; margin:0px 5px; float:left; }
-.content-column-2 { width:230px; margin:0px 5px; float:left; }
-@media only screen and (min-width: 1280px){
-	#content { width:1200px; margin:0px auto; }
-	.content-column-1 { width:950px; margin:0px 5px; }	
-}
-</style>
+<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
 <body>
@@ -70,32 +46,32 @@ h3 { padding:20px 0px; }
 	<div id="top-header"><!--Start Top Header-->
     	<div id="logo1" class="logo"><img src="assets/RehanLogoDOT.svg" height="60"/></div>
     	<div id="logo2" class="logo"><img src="assets/rehanButt.svg" height="25"/></div>
-        
+
     	<div onClick="location.href='about.html'"id="about" class="nav">About</div>
         <div onClick="location.href='portfolio.html'"id="portfolio" class="nav">Portfolio</div>
     </div><!--End Top Header-->
-    
+
     <div id="about-page"><!--Start About Page-->
         <div class="content-column-1">
             <iframe src="assets/resume.pdf" width="100%" height="1100px"></iframe>
         </div><!--End Col 1-->
-        
+
         <div class="content-column-2">
         	<img src="assets/me.jpg" width="230" alt="Me">
             <a href="http://dribbble.com/rehanbutt">
                 <img src="assets/socialIcon-02.png"
                 onMouseOver="this.src='assets/socialIconHover-02.png'"
-                onMouseOut="this.src='assets/socialIcon-02.png'" 
+                onMouseOut="this.src='assets/socialIcon-02.png'"
                 alt="Dribbble" width="32%"/></a>
             <a href="http://www.linkedin.com/pub/rehan-butt/4b/875/454">
                 <img src="assets/socialIcon-01.png"
                 onMouseOver="this.src='assets/socialIconHover-01.png'"
-                onMouseOut="this.src='assets/socialIcon-01.png'" 
+                onMouseOut="this.src='assets/socialIcon-01.png'"
                 alt="LinkedIn" width="32%"/></a>
             <a href="mailto:me@rehanbutt.com">
                 <img src="assets/socialIcon-03.png"
                 onMouseOver="this.src='assets/socialIconHover-03.png'"
-                onMouseOut="this.src='assets/socialIcon-03.png'" 
+                onMouseOut="this.src='assets/socialIcon-03.png'"
                 alt="Mail" width="32%"/></a>
             <!--<p>me@rehanbutt.com</p>-->
         </div><!--End Col 2-->
