@@ -10,33 +10,6 @@
     <link rel="apple-touch-icon" type="image/png" href="assets/favicon.png" sizes="120x120"/>
     <link rel="apple-touch-icon" type="image/png" href="assets/favicon.png" sizes="152x152"/>
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-    <script>
-    $(document).ready(function(e) {
-        $(".thumbnail").click(function() {
-            var name=$(this).attr("id").split("-")[0];
-            var flag=0;
-            var totalFlags = $(".thumbnail").length;
-            $(".open-project").each(function(){
-                if ( $(this).is(":visible") ){
-                    flag=flag+0;
-                    $('html, body').animate({ scrollTop: 0 }, 'fast');
-                }else {
-                    flag++;
-                }
-            });
-            if(flag == totalFlags){
-                $("#"+name).slideDown();
-            }
-            else if(flag == (totalFlags-1)) {
-                $(".open-project").hide();
-                $("#"+name).show();
-            }
-        });
-        $(".close-project-btn").click(function(){
-            $(this).parent(".open-project").slideUp();
-        });
-    });//End Document Ready
-    </script>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
@@ -60,21 +33,21 @@
     	<div id="project2" class="open-project"><!--Start Open Project 2-->
         	<div class="close-project-btn">CLOSE</div>
             <h3>Row House Project</h3>
-            <img class="image" src="assets/rowHouseFrontElevation.png" alt="Front Elevation" width="100%"/>
-            <img class="image" src="assets/rowHouseLongSection.png" alt="Long Section" width="100%"/>
-            <img class="image" src="assets/rowHousePlans.png" alt="Long Section" width="100%"/>
-            <img class="image" src="assets/rowHouseGrid.png" alt="Hexagon Grid" width="100%"/>
+            <img class="image" src="assets/project-rowhouse/rowHouseFrontElevation.png" alt="Front Elevation" width="100%"/>
+            <img class="image" src="assets/project-rowhouse/rowHouseLongSection.png" alt="Long Section" width="100%"/>
+            <img class="image" src="assets/project-rowhouse/rowHousePlans.png" alt="Long Section" width="100%"/>
+            <img class="image" src="assets/project-rowhouse/rowHouseGrid.png" alt="Hexagon Grid" width="100%"/>
             <div id="text"> As part of this project we were asked to create a hexagon tile and incorporate it into the house design.  I used it as a starting place, creating a grid based on it. Giving me the opportunity to create 4 basic shapes. </div>
 
-            <img class="image" src="assets/rowHouseTileIteration.png" alt="Tile Iteration" width="100%"/>
-            <img class="image" src="assets/rowHouseTile.png" alt="Tile" width="100%"/>
-            <img class="image" src="assets/rowHouseTile3d.png" alt="Tile 3D Printed" width="100%"/>
+            <img class="image" src="assets/project-rowhouse/rowHouseTileIteration.png" alt="Tile Iteration" width="100%"/>
+            <img class="image" src="assets/project-rowhouse/rowHouseTile.png" alt="Tile" width="100%"/>
+            <img class="image" src="assets/project-rowhouse/rowHouseTile3d.png" alt="Tile 3D Printed" width="100%"/>
 
             <div id="text"> I wanted to incorporate a time-based aspect into the house, so I decided to use the tile to create a water fountain wall.  The tiles are made out of copper allowing them to rust, changing color and texture, giving a new aspect to your house over the years. </div>
 
             <h3>Process</h3>
-            <img class="image" src="assets/rowHouseProcessSketches.png" alt="Process Sketches" width="100%"/>
-            <img class="image" src="assets/rowHouseProcessMoments.png" alt="Process Moments" width="100%"/>
+            <img class="image" src="assets/project-rowhouse/rowHouseProcessSketches.png" alt="Process Sketches" width="100%"/>
+            <img class="image" src="assets/project-rowhouse/rowHouseProcessMoments.png" alt="Process Moments" width="100%"/>
         </div><!--End Open Project 2-->
 
     	<div id="project3" class="open-project"><!--Start Open Project 3-->
@@ -241,14 +214,12 @@
 
     	<div id="thumbnail-tiles">
             <div id="project1-tile" class="thumbnail">
-            <img src="assets/project-fountains/thumbnail.png"
-            onMouseOver= "this.src='assets/thumbnailFountainsHover.png'"
-            alt="Fountains" /></div>
+                <img src="assets/project-fountains/thumbnail.png" alt="Fountains" />
+            </div>
 
             <div id="project2-tile" class="thumbnail">
-            <img src="assets/thumbnailRowHouse.png"
-            onMouseOver= "this.src='assets/thumbnailRowHouseHover.png'"
-            onMouseOut="this.src='assets/thumbnailRowHouse.png'" alt="Row House" /></div>
+                <img src="assets/project-rowhouse/thumbnail.png" alt="Row House" />
+            </div>
 
             <div id="project3-tile" class="thumbnail">
             <img src="assets/thumbnailScarf.png"
@@ -319,5 +290,32 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script>
+    $(document).ready(function(e) {
+        $(".thumbnail").click(function() {
+            var name=$(this).attr("id").split("-")[0];
+            var flag=0;
+            var totalFlags = $(".thumbnail").length;
+            $(".open-project").each(function(){
+                if ( $(this).is(":visible") ){
+                    flag=flag+0;
+                    $('html, body').animate({ scrollTop: 0 }, 'fast');
+                }else {
+                    flag++;
+                }
+            });
+            if(flag == totalFlags){
+                $("#"+name).slideDown();
+            }
+            else if(flag == (totalFlags-1)) {
+                $(".open-project").hide();
+                $("#"+name).show();
+            }
+        });
+        $(".close-project-btn").click(function(){
+            $(this).parent(".open-project").slideUp();
+        });
+    });//End Document Ready
+    </script>
 </body>
 </html>
