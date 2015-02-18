@@ -90,15 +90,6 @@ h3 {
     padding-right:10px;
     background-color:#ffffff;
     position:relative;
-    display:none;
-}
-
-.close-project-btn {
-    position:absolute;
-    top:10px;
-    right:10px;
-    font-size:12px;
-    cursor:pointer;
 }
 
 .thumbnail {
@@ -160,50 +151,6 @@ h3 {
 
 .img-right {
     float:right;
-}
-
-#project1 {
-    height:880px;
-}
-
-#project2 {
-    height: 3600px;
-}
-
-#project3 {
-    height: 5200px;
-}
-
-#project5 {
-    height: 1500px;
-}
-
-#project6 {
-    height: 2400px;
-}
-
-#project7 {
-    height: 880px;
-}
-
-#project8 {
-    height: 4000px;
-}
-
-#project9 {
-    height: 4700px;
-}
-
-#project10 {
-    height: 6300px;
-}
-
-#project11 {
-    height: 1800px;
-}
-
-#project12 {
-    height: 1800px;
 }
 
 #text {
