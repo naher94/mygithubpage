@@ -12,33 +12,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-<script>
-$(document).ready(function(e) {
-    $(".thumbnail").click(function() {
-        var name=$(this).attr("id").substr(0,8);
-		var flag=0;
-		var totalFlags = $(".thumbnail").length;
-		$(".open-project").each(function(){
-			if ( $(this).is(":visible") ){
-				flag=flag+0;
-			}else {
-				flag++;
-			}
-		});
-		if(flag == totalFlags){
-			$("#"+name).slideDown();
-		}
-		else if(flag == (totalFlags-1)) {
-			$(".open-project").hide();
-			$("#"+name).show();
-		}
-    });
-	$(".close-project-btn").click(function(){
-		$(this).parent(".open-project").slideUp();
-	});
-});//End Document Ready
 </script>
-<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/main.css"/>
+<link href="fontAwesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
 <style>
 .content-column-1 { width:710px; margin:0px 5px; float:left; }
 .content-column-2 { width:230px; margin:0px 5px; float:left; }
@@ -62,7 +39,10 @@ $(document).ready(function(e) {
 
     <div id="about-page"><!--Start About Page-->
         <div class="content-column-1">
+            <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-code fa-stack-1x fa-inverse"></i>-->
             <iframe src="assets/resume.pdf" width="100%" height="1100px"></iframe>
+            <!--<div id="text" style="background:#77013a; color:#ffffff; font-weight:bold; text-align:center;"><a href="assets.resume.pdf">Resume</a></div>--><!--Make resume a button not inline-->
         </div><!--End Col 1-->
 
         <div class="content-column-2">
