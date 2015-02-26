@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	useFlash="true"
+	backgroundColor="DDDDDD"
+	textColor="666666"
+	showOpenButton="false"
+	backgroundTransparent="false"
+	frameColor="DDDDDD"
+
+>
+  <image imageURL="images/orange glass fountain cropped.jpg"
+	thumbURL="thumbs/orange glass fountain cropped.jpg"
+	linkURL="images/orange glass fountain cropped.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Horizon; Medium: Blown Glass, Plastic and Pebbles; Completed: 1/2011; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/great photo glass.JPG"
+	thumbURL="thumbs/great photo glass.JPG"
+	linkURL="images/great photo glass.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Horizon; Medium: Blown Glass, Plastic and Pebbles; Completed: 1/2011; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/blue fountain cropped.jpg"
+	thumbURL="thumbs/blue fountain cropped.jpg"
+	linkURL="images/blue fountain cropped.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Floating Blue Water; Medium: Ceramics and Welded Metal; Completed: 7/2010; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/detailed1.jpg"
+	thumbURL="thumbs/detailed1.jpg"
+	linkURL="images/detailed1.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Floating Blue Water; Medium: Ceramics and Welded Metal; Completed: 7/2010; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/op 3.jpg"
+	thumbURL="thumbs/op 3.jpg"
+	linkURL="images/op 3.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Flow through Feathers; Medium: PVC pipes, Canvas, Ceramics and Acrylic Paint; Completed: 11/2010; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/orange purple2.jpg"
+	thumbURL="thumbs/orange purple2.jpg"
+	linkURL="images/orange purple2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Flow through Feathers; Medium: PVC pipes, Canvas, Ceramics and Acrylic Paint; Completed: 11/2010; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/Image4.jpg"
+	thumbURL="thumbs/Image4.jpg"
+	linkURL="images/Image4.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Spectrum; Medium:PVC Pipes and Duct Tape; Completed: 2/2011; Photo Credit: Rehan Butt]]></caption>
+  </image>
+  <image imageURL="images/flow of tech1.jpg"
+	thumbURL="thumbs/flow of tech1.jpg"
+	linkURL="images/flow of tech1.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Flow of Technology; Medium: PVC pipes, Keyboards and Acrylic; Completed: 11/2010; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/JRP_4014.JPG"
+	thumbURL="thumbs/JRP_4014.JPG"
+	linkURL="images/JRP_4014.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Flow of Technology; Medium: PVC pipes, Keyboards and Acrylic; Completed: 11/2010; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/green f 2.JPG"
+	thumbURL="thumbs/green f 2.JPG"
+	linkURL="images/green f 2.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Descend; Medium: Styrofoam, Ceramics and Spray Paint; Completed: 3/2010; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/green f water.JPG"
+	thumbURL="thumbs/green f water.JPG"
+	linkURL="images/green f water.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Descend; Medium: Styrofoam, Ceramics and Spray Paint; Completed: 3/2010; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/blue 2.JPG"
+	thumbURL="thumbs/blue 2.JPG"
+	linkURL="images/blue 2.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Big Blue; Medium: PVC Pipes, Plastic Tubing and Spray Paint; Completed: 2/2011; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/JRP_4025.JPG"
+	thumbURL="thumbs/JRP_4025.JPG"
+	linkURL="images/JRP_4025.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Big Blue; Medium: PVC Pipes, Plastic Tubing and Spray Paint; Completed: 2/2011; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+  <image imageURL="images/image5.jpg"
+	thumbURL="thumbs/image5.jpg"
+	linkURL="images/image5.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Title: Falling between the Cracks; Medium: PVC Pipes, Rubber Bands, Acrylic Paint and Marbles; Completed: 10/2010; Photo Credit: Joseph Phelan]]></caption>
+  </image>
+</simpleviewergallery>
