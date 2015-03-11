@@ -82,6 +82,10 @@ h3 {
     right:150px;
 }
 
+#blog { 
+    right:300px;
+}
+
 .open-project {
     width:inherit;
     margin-bottom:10px;
