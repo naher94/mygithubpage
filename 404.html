@@ -8,32 +8,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-<script>
-$(document).ready(function(e) {
-    $(".thumbnail").click(function() {
-        var name=$(this).attr("id").substr(0,8);
-		var flag=0;
-		var totalFlags = $(".thumbnail").length;
-		$(".open-project").each(function(){
-			if ( $(this).is(":visible") ){
-				flag=flag+0;
-			}else {
-				flag++;
-			}
-		});
-		if(flag == totalFlags){
-			$("#"+name).slideDown();
-		}
-		else if(flag == (totalFlags-1)) {
-			$(".open-project").hide();
-			$("#"+name).show();
-		}
-    });
-	$(".close-project-btn").click(function(){
-		$(this).parent(".open-project").slideUp();
-	});
-});//End Document Ready
-</script>
 <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -41,10 +15,11 @@ $(document).ready(function(e) {
 <div id="content"><!--Start Content-->
 	<div id="top-header"><!--Start Top Header-->
     	<div id="logo1" class="logo"><img src="assets/RehanLogoDOT.svg" height="60"/></div>
-    	<div id="logo2" class="logo"><img src="assets/rehanButt.png" height="25"/></div>
+    	<div id="logo2" class="logo"><img src="assets/rehanButt.svg" height="25"/></div>
 
-    	<div onClick="location.href='about.html'"id="about" class="nav">About</div>
-        <div onClick="location.href='index.html'"id="portfolio" class="nav">Portfolio</div>
+        <a href="http://blog.rehanbutt.com"><div id="blog" class="nav">Blog</div></a>
+        <a href="about.html"><div id="about" class="nav">About</div></a>
+        <a href="#"><div id="portfolio" class="nav">Portfolio</div></a>
     </div><!--End Top Header-->
 
     <div id="portfolio-page"><!--Start Portfolio Page-->
