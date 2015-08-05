@@ -72,6 +72,21 @@ h3 {
     cursor: pointer;
 }
 
+.resume {
+    width:100%;
+    background-color:#77013a;
+    color:#fff;
+    padding:10px 0px;
+    text-align:center;
+    font-size:14px;
+    margin-top: 10px;
+}
+
+.resume:hover {
+    background-color:#680032;
+    cursor: pointer;
+}
+
 #about {
     right:0px;
 }
@@ -147,6 +162,26 @@ h3 {
     width:220px;
     margin-left:10px;
     float:left;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+#subTitle{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.skills{
+    margin: 5px;
+    padding: 16px;
+    background-color:#b3b3b3;
+    width: 75px;
+    float: left;
+    text-align: center;
 }
 
 #image {
