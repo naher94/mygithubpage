@@ -27,6 +27,16 @@ a:hover {
     -webkit-user-drag: none;
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #12abc4;
+}
+
+::selection {
+    color: white;
+    background: #12abc4;
+}
+
 h3 {
     padding: 20px 0px;
     color: #666666;
