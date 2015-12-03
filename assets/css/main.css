@@ -37,6 +37,19 @@ a:hover {
     background: #12abc4;
 }
 
+.banner {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 100;
+}
+
+#update {
+    background-color: #12abc4;
+    color: white;
+}
+
 h3 {
     padding: 20px 0px;
     color: #666666;
